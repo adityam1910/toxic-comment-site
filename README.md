@@ -19,6 +19,7 @@ uvicorn app.main:app --reload
 ```
 
 Open http://localhost:8000. API docs are at http://localhost:8000/api/docs.
+Live at https://toxic-comment-site.onrender.com/
 
 ## API
 
