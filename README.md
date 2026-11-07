@@ -35,6 +35,7 @@ flowchart LR
     I --> J
 ```
 
+<<<<<<< HEAD
 - **Logistic Regression and Naive Bayes** read TF-IDF features (single words and word pairs) and train one binary classifier per label. Logistic Regression uses balanced class weights.
 - **BiLSTM** reads the comment as a sequence of words, forwards and backwards, and scores all six labels at once. Rare labels get extra weight in the loss, and each label has its own tuned threshold.
 - **Explanations** multiply each word's Logistic Regression weight by its TF-IDF value, so the biggest contributors are the words marked on the page.
@@ -114,6 +115,10 @@ python -m uvicorn app.main:app --reload
 
 Open http://localhost:8000. Interactive API docs are at http://localhost:8000/api/docs.
  Live at https://toxic-comment-site.onrender.com/
+=======
+Open http://localhost:8000. API docs are at http://localhost:8000/api/docs.
+Live at https://toxic-comment-site.onrender.com/
+>>>>>>> aaa95cf077c8f098a48c212dd498f57cbf661188
 
 ## API
 
